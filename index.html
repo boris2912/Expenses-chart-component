@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="balance">
+      <div>
+        <h2>My balance</h2>
+        <p>$921.48</p>
+      </div>
+      <img src="images/logo.svg" alt="logo">
+    </div>
+    <div class="spending">
+      <h1>Spending - Last 7 days</h1>
+      <ul>
+        <div class="barDay">
+          <p class="p">17.45</p>
+          <div class="bar" id="mon"></div>
+          <li>mon</li>
+        </div>
+        <div class="barDay">
+          <p class="p">34.91</p>
+          <div class="bar" id="tue"></div>
+          <li>tue</li>
+        </div>
+        <div class="barDay">
+          <p class="p">52.36</p>
+          <div class="bar" id="wed"></div>
+          <li>wed</li>
+        </div>
+        <div class="barDay">
+          <p class="p">31.07</p>
+          <div class="bar" id="thu"></div>
+          <li>thu</li>
+        </div>
+        <div class="barDay">
+          <p class="p">23.39</p>
+          <div class="bar" id="fri"></div>
+          <li>fri</li>
+        </div>
+        <div class="barDay">
+          <p class="p">43.28</p>
+          <div class="bar" id="sat"></div>
+          <li>sat</li>
+        </div>
+        <div class="barDay">
+          <p class="p">25.48</p>
+          <div class="bar" id="sun"></div>
+          <li>sun</li>
+        </div>
+      </ul>
+      <hr>
+      <div class="footer">
+        <div class="total">
+          <h2>Total this month</h2>
+          <p>$478.33</p>
+        </div>
+        <div class="perc">
+          <p>+2.4%</p>
+          <h2>last month</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
